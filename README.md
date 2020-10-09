@@ -5,7 +5,8 @@ container.
 
 The steps are as follows;
 
-    1. Create script to perform desired function in app root
+    1. Create script to perform desired function in app root (make sure script 
+       is executable `chmod +x <script-name>`)
     2. Create startup.sh script to run when container launches
         a. echo crontab line into /etc/crontabs/<docker-user>
         b. start `crond`
